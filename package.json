@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "dbeetoven <dbeetoven.com> (https://dbeetoven.com)",
   "bugs": {
-    "url": ".../issues"
+    "url": "https://github.com/dbeetoven/memespulse/issues"
   },
   "scripts": {
     "dev": "next dev",
@@ -39,6 +39,6 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dbeetoven/memespulse/"
   }
 }
