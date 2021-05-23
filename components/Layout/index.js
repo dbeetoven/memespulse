@@ -44,7 +44,7 @@ const Layout = (props) => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
-              <Link href="/https://twitter.com/EnergyDoge">
+              <Link href="https://twitter.com/EnergyDoge" >
                 <a>Twitter</a>
               </Link>
             </div>
