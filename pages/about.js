@@ -20,7 +20,7 @@ export default function About(){
 
         <meta name="twitter:card" content="summary" /> 
         <meta name="twitter:title" content={siteTitle} />
-        <meta name="twitter:description" content={props.desc} />
+        <meta name="twitter:description" content={description} />
         <meta name="twitter:site" content="https://www.memespulse.com/" />
         <meta name="twitter:creator" content="https://twitter.com/memes_pulse" />
   
