@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Navbar =({title})=>{
+const Navbar =({title, setToggleNav, toggleNav})=>{
     return(
         <>
        <header className="site-head">

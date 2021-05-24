@@ -6,8 +6,8 @@ import AboutContent from '../components/About/about'
 export default function About(){
 
     const siteTitle = 'Memes Pulse'
-    const description = 'Memes pulse tokens of EWC, ETH, BNB ect...'
-    const siteName = 'Memes Pulse, Shitcoins'
+    const description = 'Memes pulse tokens analytics from EWC, ETH, BNB. Analytics of shitcoins, memes coins,no fundamental coins.'
+    const siteName = 'Memes Pulse Tokens'
     return (
       <Layout title={siteTitle}>
         <Head>

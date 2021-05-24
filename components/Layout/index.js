@@ -8,7 +8,7 @@ const Layout = (props) => {
   const [toggleNav, setToggleNav] = React.useState(false)
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
-      <Navbar title={title}/>
+      <Navbar title={title} toggleNav={toggleNav} setToggleNav={setToggleNav}/>
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}
