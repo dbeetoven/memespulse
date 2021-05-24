@@ -41,7 +41,7 @@ const Navbar =({title, setToggleNav, toggleNav})=>{
           </div>
           <div className="site-head-right">
             <div className="social-links">
-              <Link href="https://twitter.com/" >
+              <Link href="https://twitter.com/memes_pulse" >
                 <a className="text-title">Twitter</a>
               </Link>
             </div>
