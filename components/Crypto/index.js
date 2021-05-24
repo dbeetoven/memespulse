@@ -91,7 +91,7 @@ const {data,loading,error} = useQuery(SMUDGE_TOKEN_DATA)
             {_tokens.map((token) => (
               <tr key={token.id}>
                 <td>
-                  <img src={token.image} alt="" />
+                  <img className="avatar" src={token.image} alt="" />
                 </td>
                 <td>{token.name}</td>
                 <td>{token.symbol}</td>

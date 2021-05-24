@@ -13,6 +13,7 @@ export default function Home({ tokens }) {
         <meta charSet="utf-8" />
         <title>Memes Pulse</title>
         <meta name="description" content={description} />
+        <meta name="robots" content="noindex"/>
         <link rel="icon" href="/favicon.ico" />
 
         <meta property="og:title" content={siteTitle} key="ogtitle" />
@@ -21,7 +22,7 @@ export default function Home({ tokens }) {
         <meta property="og:title" content={siteTitle} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
       </Head>
-      <div>
+      <div className="container">
         <CryptoList tokens={tokens} />
       </div>
     </Layout>
