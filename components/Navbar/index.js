@@ -35,13 +35,15 @@ const Navbar =({title, setToggleNav, toggleNav})=>{
             </ul>
           </nav>
           <div className="site-head-center">
-            <a className="site-head-logo text-title" to={`/`}>
+            <Link href="/">
+            <a className="site-head-logo text-title">
               {title}
             </a>
+            </Link>
           </div>
           <div className="site-head-right">
             <div className="social-links">
-              <Link href="https://twitter.com/EnergyDoge" >
+              <Link href="https://twitter.com/memes_pulse" >
                 <a className="text-title">Twitter</a>
               </Link>
             </div>

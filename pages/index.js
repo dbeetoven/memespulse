@@ -1,27 +1,10 @@
-import Head from 'next/head'
+
 import Layout from '../components/Layout'
 import CryptoList from '../components/Crypto'
 
 export default function Home({ tokens }) {
-  const siteTitle = 'Memes Pulse'
-  const description = 'Memes pulse tokens analytics from EWC, ETH, BNB. Analytics of shitcoins, memes coins,y/o no fundamental coins.'
-  const siteName = 'Memes Pulse Tokens'
   return (
-    <Layout title={siteTitle}>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-        <title>Memes Pulse</title>
-        <meta name="description" content={description} />
-        <meta name="robots" content="noindex"/>
-        <link rel="icon" href="/favicon.ico" />
-
-        <meta property="og:title" content={siteTitle} key="ogtitle" />
-        <meta property="og:description" content={description} key="ogdesc" />
-        <meta property="og:site_name" content={siteName} key="ogsitename" />
-        <meta property="og:title" content={siteTitle} key="ogtitle" />
-        <meta property="og:description" content={description} key="ogdesc" />
-      </Head>
+    <Layout>
       <div className="container">
         <CryptoList tokens={tokens} />
       </div>
