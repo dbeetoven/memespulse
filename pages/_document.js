@@ -15,7 +15,7 @@ class MyDocument extends Document {
                 <Head>
                     <meta charSet="utf-8" />
                     <meta name="description" content={description} />
-                    <meta name="keywords" content="Crypto, memes coins, shitcoins,Shiba Inu, dogecoin, doge, smudge, carbonswap,coingecko, ewc, ewt, susu,"/>
+                    <meta name="keywords" content="Crypto, memes coins, shitcoins,Shiba Inu, Dogecoin, Doge,inu,	woofy,	wsb, updog,	cat, smudge, carbonswap,coingecko, ewc, ewt, susu,"/>
                     <meta name="robots" content="index, follow">
                     <meta name="viewport" content="width=device-width, initial-scale=1">
                     <link rel="icon" href="/favicon.ico" />
