@@ -15,8 +15,14 @@ class MyDocument extends Document {
                 <Head>
                     <meta charSet="utf-8" />
                     <meta name="description" content={description} />
+                    <meta name="keywords" content="Crypto, memes coins, shitcoins,Shiba Inu, dogecoin, doge, smudge, carbonswap,coingecko, ewc, ewt, susu,"/>
+                    <meta name="robots" content="index, follow">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
                     <link rel="icon" href="/favicon.ico" />
-
+                    <meta name="rating" content="general">
+                    <meta name="copyright" content="@dbeetoven"/>
+                    <meta name="author" content="https://dbeetoven.com"/>
+                    
                     <meta name="twitter:card" content="summary" />
                     <meta name="twitter:title" content={siteTitle} />
                     <meta name="twitter:description" content={description} />
@@ -29,30 +35,25 @@ class MyDocument extends Document {
                     <meta property="og:title" content={siteTitle} key="ogtitle" />
                     <meta property="og:description" content={description} key="ogdesc" />
 
-                    <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />
-                </Head>
-                <body>
+                    <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}/>
+                    <script dangerouslySetInnerHTML={{__html: `
+                          window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                              gtag('js', new Date());
+                              gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+                              page_path: window.location.pathname,
+                            });
+                          `,
+                      }}
+                    />
+              </Head>
+              <body>
                 <Main />
                 <NextScript />
-                </body>
+              </body>
             </Html>
         )
     }
 }
 
-export default MyDocument
+export default MyDocument;
