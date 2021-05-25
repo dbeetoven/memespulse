@@ -15,7 +15,6 @@ class MyDocument extends Document {
                 <Head>
                     <meta charSet="utf-8" />
                     <meta name="description" content={description} />
-                    <meta name="robots" content="noindex"/>
                     <link rel="icon" href="/favicon.ico" />
 
                     <meta name="twitter:card" content="summary" />
