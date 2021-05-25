@@ -46,6 +46,18 @@ class MyDocument extends Document {
                           `,
                       }}
                     />
+                    <script type="application/ld+json">
+                    {
+                  "@context": "http://schema.org/",
+                  "@type": "WebSite",
+                  "url": "https://memespulse.com",
+                  "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "memes pulse{search_term_string}",
+                  "query-input": "required name=search_term_string"
+                   }
+                    }
+                  </script>
               </Head>
               <body>
                 <Main />
